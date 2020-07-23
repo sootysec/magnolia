@@ -1,5 +1,8 @@
 FROM tomcat:9.0.37-jdk11-openjdk-slim
 
+# Update base container with apt-get
+RUN apt-get update && apt-get upgrade
+
 # Configure Apache Tomcat environment variables
 ENV CATALINA_HOME /usr/local/tomcat
 ENV CATALINA_TMPDIR /tmp/tomcat
