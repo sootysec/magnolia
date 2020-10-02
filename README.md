@@ -6,7 +6,7 @@ The image is based on Nicolas Barbe work at https://github.com/nicolasbarbe/magn
 The new image builds using the following;
     
     Debian 10 - 10.4 Buster Slim
-    Tomcat 9 - 9.0.37
+    Tomcat 9 - 9.0.38
     OpenJDK 11 - 11.0.8 2020-07-14
 
 To run the image run the following
